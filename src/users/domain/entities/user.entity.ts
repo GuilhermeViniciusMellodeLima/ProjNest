@@ -5,7 +5,7 @@ export type UserProps = {
     CreateAt?: Date
 }
 
-export class Userntity {
+export class UserEntity {
     constructor(public readonly props: UserProps){
         this.props.CreateAt = this.props.CreateAt ?? new Date()
     }
